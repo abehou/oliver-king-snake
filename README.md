@@ -1,6 +1,8 @@
 # Python Battlesnake
 
-Watch my snake in action [here](https://play.battlesnake.com/s/snk_9gM8RBkRrDjrCKvF9Mrd9qfc/).
+Watch my snake in action (its name is Oliver King).
+
+[![Video of snake](https://img.youtube.com/vi/jyRHuZDIFN4/0.jpg)](https://youtu.be/jyRHuZDIFN4?t=677)
 
 ## Info
 
