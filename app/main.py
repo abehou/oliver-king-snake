@@ -8,13 +8,16 @@ from .logic import *
 from .api import ping_response, start_response, move_response, end_response
 
 
-@bottle.route('/')
+@bottle.get('/')
 def index():
-    return '''
-    Battlesnake documentation can be found at
-       <a href="https://docs.battlesnake.io">https://docs.battlesnake.io</a>.
-    '''
-
+    return {
+        "apiversion": "1",
+        "author": "oliver-king-snake",
+        "color": "#4584B6",
+        "head": "safe",
+        "tail": "round-bum",
+        "version": "0.0.1"
+    }
 
 @bottle.route('/static/<path:path>')
 def static(path):
